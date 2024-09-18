@@ -1,0 +1,106 @@
+/* Define o plano de fundo da página com uma imagem e ajusta seu tamanho para preencher toda a área visível. */
+body {
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/11273124-fundo-de-textura-de-pintura-azul-marinho-escuro-abstrato-pano-de-fundo-azul-escuro-grunge-vintage-para-design-criativo-estetico-gratis-foto.jpg);
+    background-size: 100% 100%; /* Ajusta o tamanho da imagem para cobrir 100% da largura e 100% da altura do elemento */
+}
+
+/* Remove margens, preenchimentos e marcação de lista padrão de todos os elementos <ul> (listas não ordenadas) */
+ul {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    list-style: none; /* Remove os marcadores de lista */
+    text-align: center; /* Centraliza o texto dentro da lista */
+}
+
+/* Define o estilo para os itens da lista dentro de <ul> */
+ul li {
+    display: inline-block; /* Faz com que os itens da lista sejam exibidos em linha, como blocos */
+}
+
+/* Define o estilo para os links dentro dos itens da lista */
+ul li a {
+    display: block; /* Faz com que o link se comporte como um bloco, ocupando toda a área do item da lista */
+    padding: 15px 20px; /* Adiciona preenchimento ao redor do texto do link */
+    color: #fff; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-transform: uppercase; /* Converte o texto para maiúsculas */
+    font-weight: bold; /* Define o texto como negrito */
+    transition: background 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
+}
+
+/* Define o estilo para os links quando o mouse passa sobre eles */
+ul li a:hover {
+    background-color: #555; /* Altera a cor de fundo para cinza escuro */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao fundo */
+}
+
+/* Define o estilo para o elemento <header> */
+header {
+    font-size: 20px; /* Define o tamanho da fonte */
+    color: azure; /* Define a cor do texto como azul claro */
+    width: 99%; /* Define a largura do elemento como 99% do contêiner pai */
+}
+
+/* Define o estilo para o elemento <aside> */
+aside {
+    font-size: 70px; /* Define um tamanho de fonte grande */
+    color: azure; /* Define a cor do texto como azul claro */
+    margin-left: 5%; /* Adiciona uma margem à esquerda */
+    margin-top: 1%; /* Adiciona uma margem no topo */
+}
+
+/* Define o estilo para os parágrafos <p> */
+p {
+    margin-top: -5%; /* Adiciona uma margem negativa no topo (desloca o texto para cima) */
+    font-size: 37px; /* Define o tamanho da fonte */
+}
+
+/* Define o estilo para o elemento <h5> */
+h5 {
+    width: 50%; /* Define a largura do elemento como 50% do contêiner pai */
+    float: inline-end; /* Faz o elemento flutuar no final da linha de escrita (dependente da direção do texto) */
+}
+
+/* Define o estilo para os elementos <input> */
+input {
+    border-radius: 200px; /* Adiciona bordas arredondadas com um raio muito grande */
+    width: 20%; /* Define a largura como 20% do contêiner pai */
+    height: 25px; /* Define a altura do campo de entrada */
+    margin-left: 4%; /* Adiciona uma margem à esquerda */
+    padding-top: 10px; /* Adiciona um preenchimento no topo */
+}
+
+/* Define o estilo para elementos com a classe .titulo */
+.titulo {
+   font-size: 150%; /* Define o tamanho da fonte como 150% do tamanho padrão */
+   margin-top: -1%; /* Adiciona uma margem negativa no topo (desloca o texto para cima) */
+   padding-top: -10%; /* Adiciona um preenchimento negativo no topo (não recomendado, pode causar problemas) */
+}
+
+/* Define o estilo para elementos <h4> */
+h4 {
+    margin-left: 10%; /* Adiciona uma margem à esquerda */
+}
+
+/* Define o estilo para elementos com a classe*/
+.see {
+    font-size: 30px; /* Define o tamanho da fonte */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background-color: rgb(0, 42, 252); /* Define a cor de fundo como azul escuro */
+    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
+}
+
+/* Define o estilo para elementos com a classe .inicial */
+.inicial {
+    margin-left: 10%; /* Adiciona uma margem à esquerda */
+    font-size: 40px; /* Define o tamanho da fonte */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background-color: rgb(252, 139, 0); /* Define a cor de fundo como laranja */
+    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
+}
+
+/* Define o estilo para elementos <iframe> */
+iframe {
+    width: 70%; /* Define a largura como 70% do contêiner pai */
+    height: 500px; /* Define a altura do iframe */
+}
